@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Productivity Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Daily Productivity Dashboard</h1>
+        <p id="datetime"></p>
+
+        <div class="weather">
+            <input type="text" id="cityInput" placeholder="Enter city">
+            <button id="getWeather">Get Weather</button>
+            <p id="weatherInfo"></p>
+        </div>
+
+        <div class="tasks">
+            <h2>📝 My Tasks</h2>
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button id="addTask">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
